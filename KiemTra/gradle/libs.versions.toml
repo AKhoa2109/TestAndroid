@@ -13,6 +13,8 @@ gson = "2.9.0"
 glide = "4.14.2"
 viewpager2 = "1.0.0"
 circleimageview  = "3.1.0"
+okhttp= "3.12.0"
+
 [libraries]
 junit = { group = "junit", name = "junit", version.ref = "junit" }
 ext-junit = { group = "androidx.test.ext", name = "junit", version.ref = "junitVersion" }
@@ -27,6 +29,8 @@ gson = { group = "com.google.code.gson", name = "gson", version.ref = "gson" }
 #load anh
 glide = { group = "com.github.bumptech.glide", name = "glide", version.ref = "glide" }
 glideCompiler = { group = "com.github.bumptech.glide", name = "compiler", version.ref = "glide" }
+okhttp-logging = { group = "com.squareup.okhttp3", name = "logging-interceptor", version.ref = "okhttp" }
+
 #carousel
 viewpager2 = { group = "androidx.viewpager2", name = "viewpager2", version.ref = "viewpager2" }
 # circleImage
